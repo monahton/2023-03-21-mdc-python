@@ -110,7 +110,7 @@ cc_by_human: "https://creativecommons.org/licenses/by/4.0/"
 
 # Surveys.
 pre_survey: "https://docs.google.com/forms/d/e/1FAIpQLSeGTYwFHmegtaqE5hDPYwGQz8CQ_KxkpNnuZZ1rQha7VzGMxw/viewform?usp=sf_link"
-post_survey: "https://forms.gle/XEK3qQzB9M8phU7n6"
+post_survey: "https://docs.google.com/forms/d/e/1FAIpQLSfWTknxOwVvaVGn4pzCyZBGhoReQiCj5FiZoTsRNv2BYpd4Gg/viewform?usp=sf_link"
 
 # Start time in minutes (0 to be clock-independent, 540 to show a start at 09:00 am).
 start_time: 0
