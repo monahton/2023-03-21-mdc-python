@@ -323,8 +323,8 @@ in `_config.yml` or, if this workshop is teaching a lesson in the Incubator,
 change the value of `carpentry` to `incubator`.
 </div>
 {% else %}
-<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<p><a href="{{ site.pre_survey }}">Pre-workshop Survey</a></p>
+<p><a href="{{ site.post_survey }}">Post-workshop Survey</a></p>
 {% endif %}
 
 <hr/>
@@ -421,7 +421,7 @@ during the workshop.
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
-{% include dc/setup.html %}
+{% include swc/setup.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% elsif site.carpentry == "incubator" %}
